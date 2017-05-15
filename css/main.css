@@ -94,6 +94,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body{
+    padding-bottom: 0;
+}
+
 .marketing.main-menu{
     background: #d7d7d7;
 }
@@ -143,15 +148,164 @@ textarea {
     background-size: 100%;
 }
 
+.marketing.portais .portal-item h2{
+    color: #99254a;
+    font-size: 22px;
+}
+
 .marketing.portais .portal-item ul{
     padding: 5px;
     padding-left: 17px;
 }
 
+.marketing.portais .portal-item button{
+    background: none;
+    color: #99254a;
+    background-color: #ffffff;
+    border: 2px solid #99254a;
+    padding: 6px 30px;
+    border-radius: 7px;
+}
+
+.marketing.portais .portal-item button:hover{
+    color: #ffffff;
+    background-color: #99254a;
+}
+
+
 .carousel{
     margin-bottom: 0;
 }
 
+.marketing.consultor{
+    background-color: #80113b;
+    padding: 70px 15px;
+    margin-top: 23px;
+}
+
+.marketing.consultor .title{
+    text-align: center;
+    color: #ffffff;
+}
+
+.marketing.consultor .title h2{
+    font-size: 30px;
+}
+
+.marketing.consultor .title button  {
+    text-align: center;
+    background-color: white;
+    font-size: 17px;
+    padding: 10px 25px;
+    color: #333;
+    margin-left: 11px;
+}
+
+.marketing.singulares{
+    margin-top: 30px;
+}
+
+.marketing.singulares .carousel, .marketing.singulares .carousel .item{
+    height:200px;
+    background-color: transparent;
+}
+
+.marketing.singulares .carousel .carousel-control{
+    width: 5%;
+    background: none;
+}
+
+.marketing.singulares .carousel .carousel-caption{
+    left: 7%;
+    right: 7%;
+    padding-bottom: 44px;
+}
+
+.marketing.singulares .carousel .carousel-caption ul{
+    padding: 0;
+    list-style: none;
+}
+
+.marketing.singulares .carousel .carousel-indicators li{
+    border-color: #333;
+}
+
+.marketing.singulares .carousel .carousel-caption ul li img{
+    width: 100%;
+}
+
+.marketing.singulares .carousel .carousel-indicators .active{
+    background-color: #333;
+}
+
+.marketing.singulares .title{
+    border-top: 1px solid #333;
+    padding-top: 11px;
+}
+
+.footer{
+    background-color: #75263c;
+    color: #ffffff;
+
+}
+.footer .footer-item{
+    background-color: #75263c;
+    color: #ffffff;
+
+}
+.footer .footer-item .title{
+    text-align: left;
+    font-size:15px;
+}
+.footer .footer-list{
+    padding:0;
+    list-style: none;
+    text-align: left;
+}
+.footer .footer-list-item{
+    font-size:12px;
+    margin-bottom: 15px;
+}
+.footer .footer-list-item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .copyright{
+    background-color: #8f2345;
+}
+
+.footer .copyright h2{
+    font-size: 12px;
+    text-align: center;
+}
+
+#navbar{
+    padding-top: 36px;
+}
+
+.navbar{
+    height: 100px;
+}
+
+.navbar .nav{
+
+}
+
+.navbar ul a, .navbar .dropdown-menu a{
+    color: #99254a;
+}
+
+.navbar ul a:hover, .navbar .dropdown-menu a:hover{
+    background-color: #2b0d19;
+    color: #ffffff;
+    background-image: none;
+
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: #2b0d19;
+    color: #ffffff;
+}
 
 
 
