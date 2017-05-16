@@ -113,6 +113,11 @@ body{
     padding: 15px;
 }
 
+.marketing.main-menu .marketing-item img{
+    width: 50%;
+    height: auto;
+}
+
 .marketing.main-menu .marketing-item h2{
     color: #272727;
     font-size: 20px;
@@ -290,6 +295,10 @@ body{
 
 .navbar .nav{
 
+}
+
+.navbar-brand>img {
+    width: 165px;
 }
 
 .navbar ul a, .navbar .dropdown-menu a{
