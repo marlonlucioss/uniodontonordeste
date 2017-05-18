@@ -114,14 +114,14 @@ body{
 }
 
 .marketing.main-menu .marketing-item img{
-    width: 50%;
+    width: 30%;
     height: auto;
 }
 
 .marketing.main-menu .marketing-item h2{
     color: #272727;
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 17px;
+    margin-top: 8px;
 }
 
 .marketing.main-menu .marketing-item:hover{
@@ -132,8 +132,13 @@ body{
     color: #f5f5f5;
 }
 
+.portais-content{
+    background-color: #f5f5f5;
+}
+
 .marketing.portais{
-    margin-top: 90px;
+    padding-top: 90px;
+    padding-bottom: 23px;
 }
 
 .marketing.portais .row{
@@ -141,35 +146,44 @@ body{
 }
 
 .marketing.portais .portal-item{
-    width: 20%;
+    width: 33%;
     display: inline-block;
     text-align: left;
     padding: 5px;
+    background-color: #ffffff;
 }
 
 .marketing.portais .portal-item .portal-item-img{
     width: 100%;
     height: 330px;
     background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .marketing.portais .portal-item h2{
     color: #99254a;
     font-size: 22px;
+    margin-top: 41px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-weight: bold;
 }
 
 .marketing.portais .portal-item ul{
     padding: 5px;
-    padding-left: 17px;
+    padding-left: 30px;
+    font-size: 12px;
 }
 
 .marketing.portais .portal-item button{
     background: none;
     color: #99254a;
     background-color: #ffffff;
-    border: 2px solid #99254a;
+    border: 3px solid #99254a;
     padding: 6px 30px;
     border-radius: 7px;
+    margin: 5px;
 }
 
 .marketing.portais .portal-item button:hover{
@@ -177,15 +191,128 @@ body{
     background-color: #99254a;
 }
 
+.carousel-content .carousel .item,.carousel-content .carousel{
+    height: 480px;
+}
 
 .carousel{
     margin-bottom: 0;
 }
 
+@media (min-width: 768px){
+    .container.carousel-out-content {
+        width: 750px;
+    }
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 480px;
+    }
+}
+
+@media (min-width: 992px){
+    .container.carousel-out-content {
+        width: 970px;
+    }
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 238px;
+    }
+}
+
+@media (max-width: 992px){
+    .marketing.portais .portal-item{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 530px){
+    .marketing.portais .portal-item{
+        width: 90%;
+    }
+}
+
+@media (max-width: 630px){
+    .marketing.main-menu .marketing-item{
+        width: 40%;
+    }
+}
+
+@media (max-width: 400px){
+    .marketing.main-menu .marketing-item{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px){
+    .container.carousel-out-content {
+        width: 90%;
+    }
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 480px;
+    }
+}
+
+
+@media (max-width: 1630px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 400px;
+    }
+}
+
+@media (max-width: 1360px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 350px;
+    }
+}
+
+@media (max-width: 1200px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 300px;
+    }
+}
+
+@media (max-width: 992px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 238px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .navbar-collapse.in{
+        overflow-y: visible;
+    }
+    .navbar .nav{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 765px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 200px;
+    }
+}
+
+@media (max-width: 655px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 165px;
+    }
+}
+
+@media (max-width: 555px){
+    .carousel-content .carousel .item,.carousel-content .carousel{
+        height: 110px;
+    }
+}
+
 .marketing.consultor{
     background-color: #80113b;
     padding: 70px 15px;
-    margin-top: 23px;
 }
 
 .marketing.consultor .title{
@@ -231,6 +358,12 @@ body{
     list-style: none;
 }
 
+.marketing.singulares .carousel .carousel-caption ul li{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .marketing.singulares .carousel .carousel-indicators li{
     border-color: #333;
 }
@@ -261,6 +394,7 @@ body{
 .footer .footer-item .title{
     text-align: left;
     font-size:15px;
+    text-transform: uppercase;
 }
 .footer .footer-list{
     padding:0;
@@ -268,8 +402,10 @@ body{
     text-align: left;
 }
 .footer .footer-list-item{
-    font-size:12px;
-    margin-bottom: 15px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #6a2237;
+    padding-bottom: 8px;
 }
 .footer .footer-list-item a{
     text-decoration: none;
@@ -314,6 +450,16 @@ body{
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
     background-color: #2b0d19;
     color: #ffffff;
+}
+
+.navbar-toggle{
+    margin-top: 21px;
+}
+
+.logo-ouvidoria{
+    width: 100px;
+    margin-bottom: 25px;
+    margin-right: 15px;
 }
 
 
