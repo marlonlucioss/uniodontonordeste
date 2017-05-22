@@ -99,6 +99,10 @@ body{
     padding-bottom: 0;
 }
 
+button{
+    outline:none !important;
+}
+
 .marketing.main-menu{
     background: #d7d7d7;
 }
@@ -338,7 +342,7 @@ body{
 }
 
 .marketing.singulares .carousel, .marketing.singulares .carousel .item{
-    height:200px;
+    height:100px;
     background-color: transparent;
 }
 
@@ -347,10 +351,14 @@ body{
     background: none;
 }
 
+.marketing.singulares .carousel .carousel-indicators{
+    bottom: -30px;
+}
+
 .marketing.singulares .carousel .carousel-caption{
     left: 7%;
     right: 7%;
-    padding-bottom: 44px;
+    top: -3px;
 }
 
 .marketing.singulares .carousel .carousel-caption ul{
@@ -359,9 +367,12 @@ body{
 }
 
 .marketing.singulares .carousel .carousel-caption ul li{
-    padding: 15px;
+    padding: 1%;
     border: 1px solid black;
     border-radius: 10px;
+    width: 23%;
+    margin: 1%;
+    float: left;
 }
 
 .marketing.singulares .carousel .carousel-indicators li{
