@@ -114,13 +114,44 @@
             <div class="row">
                 <div class="col-lg-8 singulares-left">
                     <h2 class="title">Singulares</h2>
-                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                    <div id="carousefooter" class="carousel slide" data-ride="carouse2">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousefooter" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousefooter" data-slide-to="1"></li>
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <ul>
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                <a href="">
+                                                    <img src="imgs/singulares/logo.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                <a href="">
+                                                    <img src="imgs/singulares/logo.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                <a href="">
+                                                    <img src="imgs/singulares/logo.png" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                                <a href="">
+                                                    <img src="imgs/singulares/logo.png" alt="">
+                                                </a>
+                                            </li>
+                                           
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
                                 <div class="container">
                                     <div class="carousel-caption">
                                         <ul>
