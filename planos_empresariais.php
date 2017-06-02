@@ -27,42 +27,38 @@
 		  $("#"+pOpcao).show();
 		}
         </script>
-<div class="container-fluid">
+<div class="container-fluid planos-empresariais-content">
     <div class="site-main-title">
         <h2>Planos Empresariais</h2>
     </div>
+    <div class="container-fluid marketing main-menu">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <a href="javascript:opcao('tbEmpresarial')" style="color: transparent">
+                <div class="marketing-item">
+                    <img src="imgs/icons/empresarial.png" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Plano Coletivo Empresarial</h2>
+                </div><!-- /.col-lg-4 -->
+            </a>
+            <a href="javascript:opcao('tbAdesao')" style="color: transparent">
+                <div class="marketing-item">
+                    <img src="imgs/icons/adesao.png" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Plano Coletivo por Adesão</h2>
+                </div><!-- /.col-lg-4 -->
+            </a>
+            <a href="javascript:opcao('tbCobertura')" style="color: transparent">
+                <div class="marketing-item">
+                    <img src="imgs/icons/cobertura.png" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Cobertura</h2>
+                </div><!-- /.col-lg-4 -->
+            </a>
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
     <div class="container-wrap">
         <div class="container main-content">
             <div class="row">
-                <section class="wrapper style1">
-                    <div class="container">
-                        <div class="row double">
-                            <section class="4u">
-                                <div class="box highlight">
-                                    <a href="javascript:opcao('tbEmpresarial')">
-                                        <i class="icon major fa-sitemap"></i>
-                                        <h3>Plano Coletivo Empresarial</h3>
-                                    </a>
-                                </div>
-                            </section>
-                            <section class="4u">
-                                <div class="box highlight"><a href="javascript:opcao('tbAdesao')">
-                                        <i class="icon major fa-users"></i>
-                                        <h3>Plano Coletivo por Adesão</h3>
-                                    </a>
-                                </div>
-                            </section>
-                            <section class="4u">
-                                <div class="box highlight"><a href="javascript:opcao('tbCobertura')">
-                                        <i class="icon major fa-comment"></i>
-                                        <h3>Cobertura</h3>
-                                    </a>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </section>
-
                 <!-- Banner -->
                 <table width="75%" border="0" align="center" cellpadding="0" cellspacing="0" class="tableEmpresariais" id="tbEmpresarial">
                     <tr><td><center><h2>Plano Coletivo Empresarial</h2></td></tr>
