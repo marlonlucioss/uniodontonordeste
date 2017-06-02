@@ -1,16 +1,19 @@
 <?php include_once('head.php'); ?>
-<div class="container-fluid portais-content">
+<div class="container-fluid">
+    <div class="site-main-title">
+        <h2>Guia Odontológico</h2>
+    </div>
     <div class="row">
          <div class="container">
         <h1 style="text-align: center; font-weight: bold; padding-top: 50px; margin-bottom: 100px; ">Guia Odontológico</h1>
             <section class="6u">
                 <div class="box post"  >
-                    
+
                     <div class="inner">
                         <img src="imgs/computer_work.jpg" style="border-radius: 25px;  float: left;"  width="400px" alt="">
                         <h3 style=" float:left; padding:20px;   ">Encontre o seu dentista</h3>
-                        
-                        
+
+
                     </div>
                     <div>
                         <p>Para consultar o Guia Odontológico, é muito simples: basta escolher a singular e você sejá redirecionado ao Guia Odontológico da singular desejada.</p>

@@ -27,7 +27,10 @@
 		  $("#"+pOpcao).show();
 		}
         </script>
-<div class="container-fluid portais-content">
+<div class="container-fluid">
+    <div class="site-main-title">
+        <h2>Planos Empresariais</h2>
+    </div>
     <div class="container-wrap">
         <div class="container main-content">
             <div class="row">
@@ -91,7 +94,7 @@
                                 6 - entidades previstas na Lei no 7.395, de 31 de outubro de 1985, e na Lei no 7.398, de 4 de novembro de 1985; <br>
                                 7 - outras pessoas jurídicas de caráter profissional, classista ou setorial não previstas nos incisos anteriores, desde que autorizadas pela Diretoria de Normas e Habilitação de operadoras – DIOPE. <br>
                                 8 -  Poderá ainda aderir ao plano  coletivo por adesão, desde que previsto contratualmente, o grupo familiar do beneficiário titular até o terceiro grau de parentesco consangüíneo, até o segundo grau de parentesco por afinidade, cônjuge ou companheiro. <br>
-                                9 - A adesão do grupo familiar  dependerá da participação do beneficiário titular no contrato de plano de assistência à saúde.<br> 
+                                9 - A adesão do grupo familiar  dependerá da participação do beneficiário titular no contrato de plano de assistência à saúde.<br>
                                 10 - Caberá à operadora exigir e comprovar a legitimidade da pessoa jurídica contratante, na forma do caput e a condição de elegibilidade do beneficiário. <br>
                                 11 - Caberá tanto à Administradora de Benefícios quanto à Operadora de Plano de Assistência à Saúde comprovar a legitimidade da pessoa jurídica contratante e a condição de elegibilidade do beneficiário.<br>
                                 <br>
@@ -174,7 +177,7 @@
                                                             </tr>
                                                             <tr bgcolor="#CCCCCC">
                                                                 <td height="53" class="textoCentralizado"><strong>Incisão e drenagem de <br />
-                                                                        abscesso 
+                                                                        abscesso
                                                                         extra oral</strong></td>
                                                                 <td class="texto">Consiste em incisão na face e posterior drenagem do abscesso</td>
                                                             </tr>
@@ -249,7 +252,7 @@
                                                                 <td height="47" class="textoCentralizado"><strong>Fluorterapia</strong></td>
                                                                 <td class="texto">Consiste na aplicação direta de produtos fluorados sobre a superfície dental, sendo realizada, somente, após profilaxia</td>
                                                             </tr>
-                                                            <tr bgcolor="#CCCCCC"> 
+                                                            <tr bgcolor="#CCCCCC">
                                                                 <td height="81" class="textoCentralizado"><strong>Aplicação de selante</strong></td>
                                                                 <td class="texto">Consiste na aplicação de produtos ionoméricos, resinas fluidas, foto ou quimicamente polimerizadas nas fóssulas e<br />
                                                                     sulcos de dentes posteriores decíduos e/ou permanentes e na face palatina de incisivos superiores permanentes</td>
@@ -321,7 +324,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>PERIODONTIA</strong></font></td>
-                                                </tr>            
+                                                </tr>
 
                                                 <tr>
                                                     <td height="9" colspan="2"></td>
@@ -336,7 +339,7 @@
                                                             </tr>
                                                             <tr>
                                                                 <td height="64" class="textoCentralizado"><strong>Raspagem sub-gengival e <br />
-                                                                        alisamento 
+                                                                        alisamento
                                                                         radicular
                                                                         /curetagem <br />
                                                                         de bolsa periodonta</strong></td>
@@ -374,7 +377,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td height="22" bgcolor="#990000" colspan="2" align="left"><font color="#FFFFFF"><strong>ENDODONTIA</strong></font></td>
-                                                </tr>              
+                                                </tr>
                                                 <tr>
                                                     <td height="8" colspan="2"></td>
                                                 </tr>
@@ -440,7 +443,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>CIRURGIA</strong></font></td>
-                                                </tr>                 
+                                                </tr>
                                                 <tr>
                                                     <td height="8" colspan="2"></td>
                                                 </tr>
@@ -575,12 +578,12 @@
                                 </table>
                             </td>
                         </tr>
-                </table>  
+                </table>
             </div>
         </div>
 
     </div>
 </div>
 
-       
+
 <?php include_once('footer.php'); ?>

@@ -103,6 +103,18 @@ button{
     outline:none !important;
 }
 
+.site-main-title{
+    text-align: center;
+    padding: 100px 30px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.main-content{
+    margin-bottom: 100px;
+}
+
 .marketing.main-menu{
     background: #d7d7d7;
 }
@@ -472,6 +484,27 @@ button{
     margin-bottom: 25px;
     margin-right: 15px;
 }
+
+/*---------------------------*/
+
+.singulares-content{
+    padding-top: 50px;
+    margin: -20px;
+}
+
+.singulares-content .singular{
+    text-align: center;
+    border: 1px solid #383838;
+    padding: 25px 0;
+    border-radius: 13px;
+    margin: 1%;
+    width: 23%;
+}
+
+.singulares-content .singular img{
+    width: 70%;
+}
+
 
 
 
