@@ -29,7 +29,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="container-fluid">
+        <div class="container-fluid navbar-main-content">
 
             <nav class="navbar">
                     <div class="navbar-header">
@@ -40,7 +40,7 @@
                             <span class="icon-bar"></span>
                             <img src="imgs/menu.png" style="width: 43px;height: 40px;" alt="">
                         </button>
-                        <a class="navbar-brand" href="#"><img src="imgs/logo-uniodonto-nordeste-ans.png" alt=""></a>
+                        <a class="navbar-brand" href="/"><img src="imgs/logo-uniodonto-nordeste-ans.png" alt=""></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav pull-right">
