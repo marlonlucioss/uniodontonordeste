@@ -29,7 +29,8 @@
         </script>
 <div class="container-fluid planos-empresariais-content">
     <div class="site-main-title">
-        <h2>Planos Empresariais</h2>
+        <h2>Plano Empresarial Uniodonto
+            <small class="site-main-subtitle">Uniodonto é o benefício que gera satisfação para seus colaboradores e dependentes.</small></h2>
     </div>
     <div class="container-fluid marketing main-menu">
 

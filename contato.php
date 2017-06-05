@@ -2,88 +2,107 @@
 
 
 
-        <div class="container-fluid">
-            
+        <div class="container-fluid contato-content">
+
             <div class="site-main-title">
                 <h2>Contato</h2>
             </div>
-            
+
             <div class="container-wrap">
 
-            <div class="container main-content">
+                <div class="container main-content">
 
-                <div class="row">
+                    <div class="row">
 
+                        <div class="col-lg-6">
 
+                            <div class="vc_col-sm-6 wpb_column column_container col padding-2-percent instance-1" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="" data-delay="0">
+                                <div class="wpb_wrapper">
+                                    <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div>
+                                    <div class="wpb_text_column wpb_content_element">
+                                        <div class="wpb_wrapper">
+                                            <h3>UNIODONTO&nbsp;MACEIÓ</h3>
 
-                    <div id="plano1">
-                        <div id="fws_5786344ca7eee" data-bg-mobile-hidden="" class="wpb_row vc_row-fluid vc_row standard_section" style="padding-top: 60px; padding-bottom: 60px; "><div class="row-bg-wrap"> <div class="row-bg" style=""></div> </div><div class="col span_12 dark left">
-                                <div class="vc_col-sm-6 wpb_column column_container col padding-2-percent" data-padding-pos="all" data-hover-bg="" data-animation="" data-delay="0">
-                                    <div class="wpb_wrapper">
-                                        <div class="tabbed vc_clearfix">
-                                            <div class="wpb_text_column wpb_content_element">
-                                                <div class="wpb_wrapper">
-                                                    <h3>UNIOPLAN ORTODÔNTICO</h3>
-
-                                                </div>
-                                            </div> <div style="margin-top: 5px; margin-bottom: 5px;" class="divider-border"></div>
-                                            <div class="wpb_text_column wpb_content_element">
-                                                <div class="wpb_wrapper">
-                                                    <ul>
-                                                        <li style="text-align: justify;"><strong>No. de Registro do Produto junto à ANS: </strong>472.108/14-0<strong><br>
-                                                            </strong></li>
-                                                        <li style="text-align: justify;"><strong>Segmentação: </strong>Odontológico<strong><br>
-                                                            </strong></li>
-                                                        <li style="text-align: justify;"><strong>Contratação: </strong>Individual ou Familiar<strong><br>
-                                                            </strong></li>
-                                                        <li style="text-align: justify;"><strong>Abrangência: </strong>Nacional</li>
-                                                    </ul>
-                                                    <p>Cobertura padrão de acordo com o rol mínimo de procedimentos exigidos pela ANS, abrangendo as especialidades de DIAGNÓSTICO, DENTÍSTICA, URGÊNCIA/EMERGÊNCIA, PREVENÇÃO, ODONTOPEDIATRIA, PERIODONTIA, ENDODONTIA, RADIOLOGIA, CIRURGIA, PROTESE.</p>
-                                                                                       <hr style="    border-top: 1px dashed ;
-      border-bottom: 1px solid ;
-      height: 4px;">
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
+                                    <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
+                                    <div class="wpb_text_column wpb_content_element">
+                                        <div class="wpb_wrapper">
+                                            <p><strong>Endereço:</strong> Avenida Santa Rita de Cássia, 278<br>
+                                                <strong>Bairro:</strong> Farol<br>
+                                                <strong>CEP:</strong> 57051-600<br>
+                                                <strong>Cidade:</strong>&nbsp;Maceió-AL</p>
+
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
+                                    <div class="wpb_text_column wpb_content_element">
+                                        <div class="wpb_wrapper">
+                                            <h3>Telefones Uniodonto:</h3>
+                                            <div class="tel">
+                                                <p><strong>Plantão de Vendas: <span style="color: #ff0000;">(82) 2123-3338</span></strong></p>
+                                                <p><strong>Atendimento ao Beneficiário:&nbsp;</strong>(82)&nbsp;2123-3300<br>
+                                                    <strong>Atendimento de Urgência 24h:</strong> (82) 2122 3000</p>
+                                            </div>
+                                            <div class="tel">
+                                                <p>&nbsp;</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="divider"></div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div id="plano2" class="style2">
-                       <div class="row-bg-wrap"> <div class="row-bg" style=""></div> </div><div class="col span_12 dark left">
-                                <div class="vc_col-sm-6 wpb_column column_container col padding-2-percent" data-padding-pos="all" data-hover-bg="" data-animation="" data-delay="0">
-                                    <div class="wpb_wrapper">
-                                        <div class="tabbed vc_clearfix">
-                                            <div class="wpb_text_column wpb_content_element">
-                                                <div class="wpb_wrapper">
-                                                    <h3>UNIOPLAN</h3>
-
-                                                </div>
-                                            </div> <div style="margin-top: 5px; margin-bottom: 5px;" class="divider-border"></div>
-                                            <div class="wpb_text_column wpb_content_element">
-                                                <div class="wpb_wrapper">
-                                                    <ul>
-                                                        <li style="text-align: justify;"><strong>No. de Registro do Produto junto à ANS: </strong>467.111/12-2<strong><br>
-                                                            </strong></li>
-                                                        <li style="text-align: justify;"><strong>Segmentação: </strong>Odontológico<strong><br>
-                                                            </strong></li>
-                                                        <li style="text-align: justify;"><strong>Contratação: </strong>Individual ou Familiar<strong><br>
-                                                            </strong></li>
-                                                        <li style="text-align: justify;"><strong>Abrangência: </strong>Nacional</li>
-                                                    </ul>
-                                                    <p>Cobertura padrão de acordo com o rol mínimo de procedimentos exigidos pela ANS, abrangendo as especialidades de DIAGNÓSTICO, DENTÍSTICA, URGÊNCIA/EMERGÊNCIA, PREVENÇÃO, ODONTOPEDIATRIA, PERIODONTIA, ENDODONTIA, RADIOLOGIA, CIRURGIA, PROTESE.</p>
-
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="col-lg-6">
+                            <h3>Fale conosco</h3>
+                            <hr class="divider">
+                            <form action="#">
+                                <div class="form-group col-lg-12">
+                                    <label for="">Seu nome</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="">Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="">Cidade</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="">Assunto</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label for="">Telefone fixo</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label for="">Telefone celular</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="">Como gostaria de ser atendido?</label>
+                                    <div class="form-input">
+                                        <input type="radio" class="form-control radio-field">Email
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="radio" class="form-control radio-field">Telefone
                                     </div>
                                 </div>
-                            </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="">Mensagem</label>
+                                    <textarea type="text" class="form-control"></textarea>
+                                </div>
+                                <hr class="divider">
+                                <div class="form-group col-lg-12">
+                                    <button type="submit" class="btn-primary btn submit">Enviar formulário</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                   </div>
+                </div>
 
                     </div>
         </div>

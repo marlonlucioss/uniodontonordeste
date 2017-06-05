@@ -2,9 +2,9 @@
 
 
 
-        <div class="container-fluid">
+        <div class="container-fluid planos-individuais-content">
             <div class="site-main-title">
-                <h2>Planos Individuais</h2>
+                <h2>Venha para a Uniodonto <small class="site-main-subtitle">Você pode ter os benefícios dos Planos Uniodonto para você e sua família!</small></h2>
             </div>
             <div class="container-wrap">
 
@@ -59,10 +59,48 @@ height: 4px;">
                         </div>
                     </div>
                     <div class="col-lg-6">
+                        <h3>Solicitação de Contato</h3>
+                        <hr class="divider">
                         <form action="#">
-                            <div class="form-group">
-                                <label for="">Nome</label>
+                            <div class="form-group col-lg-12">
+                                <label for="">Seu nome</label>
                                 <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="">Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Telefone fixo</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Telefone celular</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="">Endereço</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Bairro</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Cidade</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label for="">Quantidade de dependentes</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label for="">Observações</label>
+                                <textarea type="text" class="form-control"></textarea>
+                            </div>
+                            <hr class="divider">
+                            <div class="form-group col-lg-12">
+                                <button type="submit" class="btn-primary btn submit">Enviar formulário</button>
                             </div>
                         </form>
                     </div>

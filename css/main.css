@@ -570,6 +570,33 @@ button{
     margin-top: -100px;
 }
 
+.planos-individuais-content textarea{
+    resize: none;
+}
+.submit, .submit:hover, .submit:active{
+    width: 100%;
+    background-image: none;
+    background: #a22549;
+    border: 0;
+}
+.planos-individuais-content .tab-pane .wpb_wrapper{
+    padding: 20px;
+}
+
+.planos-empresariais-content table td{
+    padding: 10px;
+}
+
+.contato-content form .radio-field{
+    float: left;
+    width: initial;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.contato-content form .form-input{
+    margin-top: 10px;
+}
 
 
 
