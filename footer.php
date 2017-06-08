@@ -27,124 +27,52 @@
                         <h3 class="title">Links Úteis</h3>
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <a href="http://www.ans.gov.br/">ANS</a>
+                                <a href="http://www.ocb.org.br/site/brasil_cooperativo/index.asp">OCB</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="">OCB</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">OCB-AL</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="http://www.ocb-al.coop.br/">OCB-AL</a>
                             </li>
                         </ul>
                     </div>
+                    
                     <div class="col-lg-3 footer-item">
-                        <h3 class="title">Conheça a Uniodonto</h3>
+                        <h3 class="title">a Uniodonto</h3>
                         <ul class="footer-list">
                             <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="planos_individuais.php">Planos Individuais e Familiar</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="planos_empresariais.php">Planos Empresariais</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="guia.php">Encontre Um Dentista</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="portaltiss.php">Coordenador TISS</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="aplicativos.php">Aplicativo Mobile</a>
                             </li>
                             <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
+                                <a href="contato.php">Fale Conosco</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-3 footer-item">
-                        <h3 class="title">Conheça a Uniodonto</h3>
-                        <ul class="footer-list">
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                        </ul>
+                        <a href="https://www.uniodontomaceio.com.br/site/downloads/CDC.pdf"><img src="imgs/CDC.png" alt=""></a>
                     </div>
                     <div class="col-lg-3 footer-item">
-                        <h3 class="title">Conheça a Uniodonto</h3>
-                        <ul class="footer-list">
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 footer-item">
-                        <h3 class="title">Conheça a Uniodonto</h3>
-                        <ul class="footer-list">
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                            <li class="footer-list-item">
-                                <a href="">A Uniodonto</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 footer-item">
-                        <a href=""><img src="imgs/CDC.jpg" alt=""></a>
-                    </div>
-                    <div class="col-lg-3 footer-item">
-                        <h3 class="title">Conheça a Uniodonto</h3>
-                        <a href=""><img class="logo-ouvidoria" src="imgs/ouvidoria.jpg" alt=""></a>
+                        <!--<h3 class="title">Ouvidoria</h3>-->
+                        <a href="ouvidoria.php"><img class="logo-ouvidoria" src="imgs/ouvidoria.png" alt=""></a>
                         <a href=""><img src="imgs/ans_logo_horiz.gif" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 footer-item">
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                             <br>Resp. Técnico: Dra Maria Sônia Costa <br>CRO/AL: 973
+                            </li>
+                            
+                        </ul>
                     </div>
                 </div><!-- /.row -->
             </div>
