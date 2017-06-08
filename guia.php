@@ -1,5 +1,22 @@
 <?php include_once('head.php'); ?>
 <div class="container-fluid guia-content">
+     <script>
+            function redireciona(endereco) {
+                if (endereco == '') {
+                    alert('Favor selecionar uma singular!');
+                    return false;
+                } else {
+                    if (endereco == 'N') {
+                        alert('A singular selecionada ainda não possui guia odontológico on-line');
+                        return false;
+                    } else {
+                        window.open(endereco);
+                    }
+                }
+            }
+            
+        </script>
+        
     <div class="site-main-title">
         <h2>Guia Odontológico <small class="site-main-subtitle">Encontre abaixo um profissional Uniodonto</small></h2>
     </div>

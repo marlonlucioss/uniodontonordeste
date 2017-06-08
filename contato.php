@@ -5,7 +5,7 @@
         <div class="container-fluid contato-content">
 
             <div class="site-main-title">
-                <h2>Contato</h2>
+                <h2>Fale Conosco <small class="site-main-subtitle">Seu contato é muito importante para nós.!</small></h2>
             </div>
 
             <div class="container-wrap">
@@ -21,33 +21,37 @@
                                     <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div>
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper">
-                                            <h3>UNIODONTO&nbsp;MACEIÓ</h3>
-
+                                            <h4>SEDE MACEIÓ AL</h4>
                                         </div>
                                     </div>
                                     <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper">
-                                            <p><strong>Endereço:</strong> Avenida Santa Rita de Cássia, 278<br>
+                                            <p><strong>Endereço:</strong> Rua Joaquim Nabuco, 161 - Sala 02 - Edf. Opara<br>
                                                 <strong>Bairro:</strong> Farol<br>
-                                                <strong>CEP:</strong> 57051-600<br>
-                                                <strong>Cidade:</strong>&nbsp;Maceió-AL</p>
-
+                                                <strong>CEP:</strong> 57051-410<br>
+                                                <strong>Cidade:</strong>&nbsp;Maceió-AL
+                                            <br>
+                                            <strong>Telefones:</strong>&nbsp; <b>(82)3317-0778 / (82)3317-0779</b>
+                                            </p>
                                         </div>
                                     </div>
                                     <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper">
-                                            <h3>Telefones Uniodonto:</h3>
-                                            <div class="tel">
-                                                <p><strong>Plantão de Vendas: <span style="color: #ff0000;">(82) 2123-3338</span></strong></p>
-                                                <p><strong>Atendimento ao Beneficiário:&nbsp;</strong>(82)&nbsp;2123-3300<br>
-                                                    <strong>Atendimento de Urgência 24h:</strong> (82) 2122 3000</p>
-                                            </div>
-                                            <div class="tel">
-                                                <p>&nbsp;</p>
-                                            </div>
-
+                                            <h4>SEDE TERESINA PI</h4>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
+                                    <div class="wpb_text_column wpb_content_element">
+                                        <div class="wpb_wrapper">
+                                            <p><strong>Endereço:</strong> Rua Desembargador Pires de Castro, 722 - Edf. Opala Center - Salas 03,04<br>
+                                                <strong>Bairro:</strong> Centro<br>
+                                                <strong>CEP:</strong> 64000-390<br>
+                                                <strong>Cidade:</strong>&nbsp;Teresina/PI
+                                            <br>
+                                            <strong>Telefones:</strong>&nbsp; <b> (86)3221-1939 / (86)3085-2908 </b>
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="divider"></div>
@@ -55,7 +59,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <h3>Fale conosco</h3>
+                            <h3>Favor prencher o formulário</h3>
                             <hr class="divider">
                             <form action="#">
                                 <div class="form-group col-lg-12">

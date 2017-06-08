@@ -39,26 +39,36 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <img src="imgs/menu.png" style="width: 43px;height: 40px;" alt="">
-                        </button>
-                        <a class="navbar-brand" href="/"><img src="imgs/logo-uniodonto-nordeste-ans.png" alt=""></a>
+                        </button    >
+                        <a class="navbar-brand" href="index.php"><img src="imgs/logo-uniodonto-nordeste-ans.png" alt=""></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav pull-right">
                             <li class="active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A Uniodonto <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
+                                    <li><a href="portaltiss.php">Coordenador TISS</a></li>
                                 </ul>
                             </li>
-                            <li><a href="planos_individuais.php">Para você</a></li>
-                            <li><a href="planos_empresariais.php">Para sua empresa</a></li>
+                            <li class="active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planos Individuais <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="planos_individuais.php">Para Você e Familia</a></li>
+                                    <li><a href="guia.php">Encontre um Dentista</a></li>
+                                    <li><a target="_blank" href="http://177.135.178.107/portaisUniodontoFederacao/portalbeneficiario/">Cancelamento o Plano</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planos Empresariais <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="planos_empresariais.php">Planos para Empresas </a></li>
+                                    <li><a href="guia.php">Encontre um Dentista</a></li>
+                                    <li><a target="_blank" href="http://177.135.178.107/portaisUniodontoFederacao/portalEmpresa/">Portal da Empresa</a></li>
+                                </ul>
+                            </li>
                             <li><a href="guia.php">Encontre um dentista</a></li>
                             <li><a href="singulares.php">Singulares</a></li>
-                            <li><a href="contato.php">Contato</a></li>
+                            <li><a href="contato.php">Fale Conosco</a></li>
                         </ul>
                     </div>
             </nav>

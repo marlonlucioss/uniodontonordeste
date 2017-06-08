@@ -10,32 +10,87 @@
                     <div class="singulares-content">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
                             <a href="">
-                                <img src="imgs/singulares/logo.png" alt="">
+                                <img src="imgs/singulares/logo_aracajú.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
                             <a href="">
-                                <img src="imgs/singulares/logo.png" alt="">
+                                <img src="imgs/singulares/logo_arapiraca.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
                             <a href="">
-                                <img src="imgs/singulares/logo.png" alt="">
+                                <img src="imgs/singulares/logo_caruaru.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
                             <a href="">
-                                <img src="imgs/singulares/logo.png" alt="">
+                                <img src="imgs/singulares/logo_feiradesantana.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
                             <a href="">
-                                <img src="imgs/singulares/logo.png" alt="">
+                                <img src="imgs/singulares/logo_fortaleza.png" alt="">
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
                             <a href="">
-                                <img src="imgs/singulares/logo.png" alt="">
+                                <img src="imgs/singulares/logo_garanhuns.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_Ilheus.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_Itabuna.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_joaopessoa.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_maceio.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_mossoro.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_pauloafonso.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_piaui.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_recife.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_riograndedonorte.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_salvador.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 singular">
+                            <a href="">
+                                <img src="imgs/singulares/logo_serido.png" alt="">
                             </a>
                         </div>
                     </div>
