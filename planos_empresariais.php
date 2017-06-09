@@ -7,7 +7,7 @@
 	color:#000;
 }
 .tituloDica {
-	color:#990000;
+	color:#75263c;
 	font-size:0.9em;
 	text-align: justify;
 
@@ -15,19 +15,41 @@
 .fontDaDica {
 	font-size:0.7em;
 	text-align: justify;
-	border-bottom-color: #990000;
+	border-bottom-color: #75263c;
 	border-bottom:solid;
 	border-bottom-width:1px;
 }
 </style>
 <script>
         function opcao(pOpcao) {
-		  $("#tbEmpresarial").fadeOut();
-		  $("#tbAdesao").fadeOut();
-		  $("#"+pOpcao).show();
+
+            switch (pOpcao){
+                case 'tbAdesao':
+                    if ( $("#tbAdesao").css('display') == 'none' ){
+                        $("#tbEmpresarial").hide();
+                        $("#tbCobertura").hide();
+                        $("#tbAdesao").fadeIn();
+                    }
+                    break;
+                case 'tbEmpresarial':
+                    if ( $("#tbEmpresarial").css('display') == 'none' ){
+                        $("#tbAdesao").hide();
+                        $("#tbCobertura").hide();
+                        $("#tbEmpresarial").fadeIn();
+                    }
+                    break;
+                case 'tbCobertura':
+                    if ( $("#tbCobertura").css('display') == 'none' ) {
+                        $("#tbAdesao").hide();
+                        $("#tbEmpresarial").hide();
+                        $("#tbCobertura").fadeIn();
+                    }
+                    break;
+            }
 		}
         </script>
 <div class="container-fluid planos-empresariais-content">
+    <div class="row">
     <div class="site-main-title">
         <h2>Plano Empresarial Uniodonto
             <small class="site-main-subtitle">Uniodonto é o benefício que gera satisfação para seus colaboradores e dependentes.</small></h2>
@@ -116,7 +138,7 @@
                                                     <td height="15" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td width="802" height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>DIAGNÓSTICO</strong></font>
+                                                    <td width="802" height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>DIAGNÓSTICO</strong></font>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -139,7 +161,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td width="802" height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>URGÊNCIA / EMERGÊNCIA</strong></font></td>
+                                                    <td width="802" height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>URGÊNCIA / EMERGÊNCIA</strong></font></td>
                                                 </tr>
                                                 <tr>
                                                     <td height="8" colspan="2"></td>
@@ -193,7 +215,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>RADIOLOGIA</strong></font></td>
+                                                    <td height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>RADIOLOGIA</strong></font></td>
                                                 </tr>
 
                                                 <tr>
@@ -220,7 +242,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>PREVENÇÃO EM SAÚDE BUCAL</strong></font></td>
+                                                    <td height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>PREVENÇÃO EM SAÚDE BUCAL</strong></font></td>
                                                 </tr>
                                                 <tr>
                                                     <td height="8" colspan="2"></td>
@@ -260,7 +282,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>DENTÍSTICA</strong></font></td>
+                                                    <td height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>DENTÍSTICA</strong></font></td>
                                                 </tr>
                                                 <tr>
                                                     <td height="9" colspan="2"></td>
@@ -320,7 +342,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>PERIODONTIA</strong></font></td>
+                                                    <td height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>PERIODONTIA</strong></font></td>
                                                 </tr>
 
                                                 <tr>
@@ -373,7 +395,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="22" bgcolor="#990000" colspan="2" align="left"><font color="#FFFFFF"><strong>ENDODONTIA</strong></font></td>
+                                                    <td height="22" bgcolor="#75263c" colspan="2" align="left"><font color="#FFFFFF"><strong>ENDODONTIA</strong></font></td>
                                                 </tr>
                                                 <tr>
                                                     <td height="8" colspan="2"></td>
@@ -439,7 +461,7 @@
                                                     <td height="22" colspan="2"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="22" bgcolor="#990000" colspan="2"><font color="#FFFFFF"><strong>CIRURGIA</strong></font></td>
+                                                    <td height="22" bgcolor="#75263c" colspan="2"><font color="#FFFFFF"><strong>CIRURGIA</strong></font></td>
                                                 </tr>
                                                 <tr>
                                                     <td height="8" colspan="2"></td>
@@ -569,16 +591,13 @@
                                             </table>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td height="2" colspan="3" bgcolor="#8C0B42" class="texto"></td>
-                                    </tr>
                                 </table>
                             </td>
                         </tr>
                 </table>
             </div>
         </div>
-
+    </div>
     </div>
 </div>
 

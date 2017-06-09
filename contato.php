@@ -3,7 +3,7 @@
 
 
         <div class="container-fluid contato-content">
-
+            <div class="row">
             <div class="site-main-title">
                 <h2>Fale Conosco <small class="site-main-subtitle">Seu contato é muito importante para nós.!</small></h2>
             </div>
@@ -109,6 +109,7 @@
                 </div>
 
                     </div>
+            </div>
         </div>
 
 

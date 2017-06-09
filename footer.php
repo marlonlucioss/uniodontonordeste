@@ -34,7 +34,7 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                     <div class="col-lg-3 footer-item">
                         <h3 class="title">a Uniodonto</h3>
                         <ul class="footer-list">
@@ -71,7 +71,7 @@
                             <li class="footer-list-item">
                              <br>Resp. Técnico: Dra Maria Sônia Costa <br>CRO/AL: 973
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div><!-- /.row -->

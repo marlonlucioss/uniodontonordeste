@@ -1,5 +1,6 @@
 <?php include_once('head.php'); ?>
 <div class="container-fluid guia-content">
+    <div class="row">
      <script>
             function redireciona(endereco) {
                 if (endereco == '') {
@@ -14,9 +15,9 @@
                     }
                 }
             }
-            
+
         </script>
-        
+
     <div class="site-main-title">
         <h2>Guia Odontológico <small class="site-main-subtitle">Encontre abaixo um profissional Uniodonto</small></h2>
     </div>
@@ -54,9 +55,10 @@
                  </div>
              </div>
             <section class="iframe-content">
-                <iframe height="850px" src="https://www2.uniodontomaceio.com.br/uniodontonordeste/site/guia_odonto.php" width="100%" frameborder="0" scrolling="auto" style="opacity: 1; visibility: visible;"></iframe>
+                <iframe height="850px" src="https://www2.uniodontomaceio.com.br/uniodontonordeste/site/guia_odonto.php" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
             </section>
         </div>
+    </div>
     </div>
 </div>
 <?php include_once('footer.php'); ?>

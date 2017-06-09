@@ -1,5 +1,6 @@
 <?php include_once('head.php'); ?>
     <div class="container-fluid">
+        <div class="row">
         <div class="site-main-title">
             <h2>Singulares</h2>
         </div>
@@ -96,6 +97,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 <?php include_once('footer.php'); ?>

@@ -1,5 +1,7 @@
 <?php include_once('head.php'); ?>
+
         <div class="container-fluid planos-individuais-content">
+            <div class="row">
             <div class="site-main-title">
                 <h2>Venha para a Uniodonto <small class="site-main-subtitle">Você pode ter os benefícios dos Planos Uniodonto para você e sua família!</small></h2>
             </div>
@@ -14,7 +16,7 @@
                         <ul class="nav nav-tabs">
                             <li class="active"><a data-toggle="tab" href="#menu1">UNIOPLAN</a></li>
                             <li><a data-toggle="tab" href="#home">UNIOPLAN ORTODÔNTICO</a></li>
-                            
+
                         </ul>
 
                         <div class="tab-content">
@@ -31,7 +33,7 @@
                                             <li style="text-align: justify;"><strong>Abrangência: </strong>Nacional</li>
                                         </ul>
                                         <p>Cobertura padrão de acordo com o rol mínimo de procedimentos exigidos pela ANS, abrangendo as especialidades de DIAGNÓSTICO, DENTÍSTICA, URGÊNCIA/EMERGÊNCIA, PREVENÇÃO, ODONTOPEDIATRIA, PERIODONTIA, ENDODONTIA, RADIOLOGIA, CIRURGIA, PROTESE.</p>
-                                        <hr style="   
+                                        <hr style="
 border-bottom: 1px solid ;
 height: 4px;">
                                     </div>
@@ -103,6 +105,8 @@ height: 4px;">
                         </form>
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
        </div>
 

@@ -139,7 +139,7 @@ button{
     margin-top: 8px;
     display: block;
     font-size: 18px;
-    color: #b3b3b3;
+    color: #9c9c9c;
 }
 
 .main-content{
@@ -573,6 +573,17 @@ button{
 .planos-individuais-content textarea{
     resize: none;
 }
+
+.planos-individuais-content .nav-tabs li > a{
+    background-color: #e6a305;
+    color: white;
+}
+
+.planos-individuais-content .nav-tabs li.active > a{
+    background-color: #75263c;
+    color: #ffffff;
+}
+
 .submit, .submit:hover, .submit:active{
     width: 100%;
     background-image: none;
@@ -596,6 +607,10 @@ button{
 
 .contato-content form .form-input{
     margin-top: 10px;
+}
+
+.ouvidoria-content .site-main-title{
+    margin-bottom: 40px;
 }
 
 
