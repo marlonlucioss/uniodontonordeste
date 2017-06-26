@@ -10,7 +10,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
         <link rel="stylesheet" href="css/normalize.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -21,6 +22,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
         <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+        
 
         <link rel="stylesheet" href="css/main.css">
     </head>

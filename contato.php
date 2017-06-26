@@ -1,4 +1,68 @@
-<?php include_once('head.php'); ?>
+<?php 
+ini_set('display_errors', 0);
+ini_set('display_startup_erros', 0);
+error_reporting(0);
+
+//
+include_once('head.php');
+// 
+//
+//if(isset($_POST['form-nome']) && isset($_POST['form-email'])) {
+//    
+//    require_once('email/email.php');
+//    
+//    $nome = $_POST['form-nome'];
+//    $email = $_POST['form-email'];
+//    $cidade = $_POST['form-cidade'];
+//    $assunto = $_POST['form-assunto'];
+//    $tel =  $_POST['form-tel'];
+//    $cel = $_POST['form-cel'];
+//    $tipo = $_POST['form-tipo-contato'];
+//    $msg = $_POST['form-msg'];
+//    
+//    $corpo = "<table>
+//    <tr>
+//        <td>Nome: </td>
+//        <td>$nome </td>
+//    </tr>
+//      <tr>
+//        <td>Cidade: </td>
+//        <td> $email</td>
+//    </tr>
+//     <tr>
+//        <td>Cidade: </td>
+//        <td> $cidade</td>
+//    </tr>
+//     <tr>
+//        <td>Assunto: </td>
+//        <td>$assunto</td>
+//    </tr>
+//     <tr>
+//        <td>Telefone: </td>
+//        <td>$tel</td>
+//    </tr>
+//     <tr>
+//        <td>Celular: </td>
+//        <td>$cel</td>
+//    </tr> 
+//    <tr>
+//        <td>Tipo de Contato que gostaria de ser Contactado: </td>
+//        <td>$tipo</td>
+//    </tr>
+//     <tr>
+//        <td>Mensagem: </td>
+//        <td>$msg</td>
+//    </tr>
+//</table>";
+//    
+//    if(enviarEmail($corpo, 'juceliofeitoza@gmail.com', 'Fale Conosco - Site Uniodonto Nordeste')) {
+//        $contatoConfirm = 'block';
+//    } else {
+//        $contatoConfirm = 'none';
+//    }
+//}
+ 
+?>
 
 
 
@@ -39,7 +103,7 @@
                                     <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper">
-                                            <h4>SEDE TERESINA PI</h4>
+                                            <h4>ESCRITÓRIO TERESINA PI</h4>
                                         </div>
                                     </div>
                                     <div style="margin-top: 3px; margin-bottom: 3px;" class="divider-border"></div><div style="height: 15px;" class="divider"></div>
@@ -61,56 +125,67 @@
                         <div class="col-lg-6">
                             <h3>Favor prencher o formulário</h3>
                             <hr class="divider">
-                            <form action="#">
+                            <div class="form-group col-lg-12" id="contato-confirm" style="display:none;">
+                                <h3 style="color:gren;">Muito Obrigado!, Contato enviado com sucesso.</h3>
+                                </div>
+                            <hr class="divider">
+                            <form action="" method="post">
                                 <div class="form-group col-lg-12">
                                     <label for="">Seu nome</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" id="form-nome" name="form-nome" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Email</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" id="form-email" name="form-email" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Cidade</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" id="form-cidade" name="form-cidade" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Assunto</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" id="form-assunto" name="form-assunto" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label for="">Telefone fixo</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" id="form-tel" name="form-tel" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label for="">Telefone celular</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" id="form-cel" name="form-cel" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Como gostaria de ser atendido?</label>
                                     <div class="form-input">
-                                        <input type="radio" class="form-control radio-field">Email
+                                        <input type="radio" name="form-tipo-contato" id="form-tipo-contato" value="telefone" class="form-control radio-field">Email
                                     </div>
                                     <div class="form-input">
-                                        <input type="radio" class="form-control radio-field">Telefone
+                                        <input type="radio"  name="form-tipo-contato" id="form-tipo-contato" value="telefone" class="form-control radio-field">Telefone
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Mensagem</label>
-                                    <textarea type="text" class="form-control"></textarea>
+                                    <textarea type="text" id="form-msg" name="form-msg" class="form-control"></textarea>
                                 </div>
                                 <hr class="divider">
                                 <div class="form-group col-lg-12">
-                                    <button type="submit" class="btn-primary btn submit">Enviar formulário</button>
+                                    <button type="submit" class="btn-primary btn submit enviar-form-contact " disabled="disabled">Enviar formulário</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-
                     </div>
             </div>
         </div>
 
 
+<script>
+    $('enviar-form-contact').click( function () {
+
+        $('enviar-form-contact').hide();
+
+    });
+
+</script> 
 <?php include_once('footer.php'); ?>

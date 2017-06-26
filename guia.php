@@ -33,29 +33,32 @@
                          <label>Seelcione sua cidade</label>
                          <select name="lstSingular" id="lstSingular" onchange="redireciona(this.value)" class="form-control">
                              <option value="" selected="selected">-- SELECIONE --</option>
-                             <option value="http://www.uniodontoaracaju.com.br/paginas.php?chave=f65ff7e4815913f8fe3bcabefbbb4384&amp;pag=encontredent2&amp;cidade=ARACAJU&amp;estado=SE">UNIODONTO ARACAJU</option>
-                             <option value="http://uniodontoarapiraca.no-ip.info:8082/guiaOdontologico/guia_odontologico_new.php">UNIODONTO ARAPIRACA</option>
-                             <option value="http://uniodontocaruaru.linkpc.net:8081/guiaOdontologico/guia_odontologico_new.php">UNIODONTO CARUARU</option>
+                             <option value="https://www.uniodonto.coop.br/encontre-um-dentista-uniodonto/">UNIODONTO ARACAJU</option>
+                             <option value="https://www.uniodonto.coop.br/encontre-um-dentista-uniodonto/">UNIODONTO ARAPIRACA</option>
+                             <option value="http://www.praticasti.com.br/uniods/guiaOdontologico/guia_odontologico_new.php?codigoUniodonto=088">UNIODONTO CARUARU</option>
                              <option value="http://uniodontofeira.linkpc.net/guiaOdontologico/guia_odontologico_new.php">UNIODONTO FEIRA DE SANTANA</option>
-                             <option value="http://www.uniodonto-ce.com.br/site.jsp?pagina=dentista.jsp">UNIODONTO FORTALEZA</option>
+                             <option value="http://www.uniodonto-ce.com.br/pages/encontreUmDentista.jsp">UNIODONTO FORTALEZA</option>
                              <option value="http://uniodontogaranhuns.linkpc.net:8081/guiaOdontologico/guia_odontologico_new.php">UNIODONTO GARANHUNS</option>
-                             <option value="http://www.uniodontoilheus.com.br/dentistas.php">UNIODONTO ILHÉUS</option>
+                             <option value="http://199.168.189.106/BuscaCooperado/Default.aspx?qr=wlo4wKs0Z14%3d&page=EncontreSeuDentista">UNIODONTO ILHÉUS</option>
                              <option value="http://uniodontoitabuna.linkpc.net:8081/guiaOdontologico/guia_odontologico_new.php">UNIODONTO ITABUNA</option>
-                             <option value="http://www.uniodontojp.com.br/index.php">UNIODONTO JOÃO PESSOA</option>
+                             <option value="https://www.uniodontojp.com.br/consulta/">UNIODONTO JOÃO PESSOA</option>
                              <option value="http://www.uniodontomaceio.com.br/site/clientes/aa/guiaOdontologico/guia_odontologico_new.php">UNIODONTO MACEIÓ</option>
-                             <option value="http://www.uniodontomossoro.com.br/dentistas.php">UNIODONTO MOSSORÓ</option>
-                             <option value="http://uniodontopauloafonso.no-ip.biz:8081/guiaOdontologico/guia_odontologico_new.php">UNIODONTO PAULO AFONSO</option>
-                             <option value="guia_odontologico_new.php">UNIODONTO PIAUÍ</option>
-                             <option value="http://187.115.154.22:8081/site/guiaOdontologico/guia_odontologico_new.php">UNIODONTO RECIFE</option>
-                             <option value="http://www.uniodontorn.com.br/modules/conteudo/content/index.php?id=2">UNIODONTO RIO GRANDE DO NORTE</option>
-                             <option value="http://www.uniodontosalvador.com.br/novosite/cooperados/">UNIODONTO SALVADOR</option>
-                             <option value="http://uniodontoserido.ddns.net:8081/guiaOdontologico/guia_odontologico_new.php">UNIODONTO SERIDÓ</option>
+                             <option value="http://199.168.189.106/BuscaCooperado/EncontreSeuDentista.aspx/?qr=QVNX2hu/Luk=">UNIODONTO MOSSORÓ</option>
+                             <option value="http://www.uniodontopauloafonso.com.br/redes.html">UNIODONTO PAULO AFONSO</option>
+                             <option value="https://www.uniodonto.coop.br/singulares/uniodonto-piaui/">UNIODONTO PIAUÍ</option>
+                             <option value="http://191.34.249.17/site/guiaOdontologico/guia_odontologico_new.php">UNIODONTO RECIFE</option>
+                             <option value="http://www.uniodontorn.com.br/guia">UNIODONTO RIO GRANDE DO NORTE</option>
+                             <option value="http://www.uniodontosalvador.com.br/encontre-um-dentista/">UNIODONTO SALVADOR</option>
+                             <option value="http://www.praticasti.com.br/uniods/guiaOdontologico/guia_odontologico_new.php?codigoUniodonto=112">UNIODONTO SERIDÓ</option>
                          </select>
                      </div>
                  </div>
              </div>
             <section class="iframe-content">
                 <iframe height="850px" src="https://www2.uniodontomaceio.com.br/uniodontonordeste/site/guia_odonto.php" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
+            </section>
+             <section class="iframe-content">
+                <iframe height="850px" src="http://www2.uniodonto.com.br/Institucional/BuscaDentista.aspx?singular=038" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
             </section>
         </div>
     </div>

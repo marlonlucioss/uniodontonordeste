@@ -44,13 +44,7 @@ Bem-vindo à Ouvidoria da Uniodonto do Nordeste. Sua opinião é muito important
                             <div class="form-group col-lg-12">
                                 <input class="btn-primary btn submit" type="button" src="imagens/botao_enviar.png" name="Submit" onClick="enviar()" value="Enviar">
                             </div>
-
-
-
-
-                            <!--
-
-
+                        <!--
                         <input type="hidden" name="tipoContato" value="Ouvidoria">
                             <table border="0" cellpadding="0" cellspacing="0" bgcolor="#EDEDED"  class="tabSingulares" align="center" width="600" border=1>
                                 <tr><td colspan="3">Por favor preencha os campos abaixo e clique em Enviar, que entraremos em contato com você o mais rápido possível.</td></tr>
@@ -108,9 +102,7 @@ Bem-vindo à Ouvidoria da Uniodonto do Nordeste. Sua opinião é muito important
                             -->
                         </form>
                     </div>
-
                 </div>
             </div>
        </div>
-
 <?php include_once('footer.php'); ?>

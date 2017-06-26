@@ -14,10 +14,10 @@
                        
                     </ol>
                     <div class="carousel-inner" role="listbox">
-                        <div class="item active" style="background: url(imgs/banner-app.jpg) 0 0 no-repeat;background-size: 100%;background-size: 120%;background-position: center;">
+                        <div class="item active" style="background: url(imgs/banner-bemvindo.jpg) 0 0 no-repeat;background-size: 100%;background-size: 100%;background-position: center;">
                             <a href="#"></a>
                         </div>
-                        <div class="item" style="background: url(imgs/banner-bemvindo.jpg) 0 0 no-repeat;background-size: 100%;background-size: 120%;background-position: center;">
+                        <div class="item" style="background: url(imgs/banner-app.jpg) 0 0 no-repeat;background-size: 100%;background-size: 100%;background-position: center;">
                             <a href="#"></a>
                         </div>
                     </div>
@@ -43,9 +43,15 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="marketing-item">
-                    <a href="#">
-                        <img src="imgs/icone-2-via-boleto.png" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Segunda Via Boletos</h2>
+                    <a href="planos_individuais.php">
+                        <img src="imgs/family.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Planos Individuais e Familiar</h2>
+                    </a>
+                </div><!-- /.col-lg-4 -->
+                  <div class="marketing-item">
+                      <a href="planos_empresariais.php">
+                        <img src="imgs/planos_empresas.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Planos Empresariais</h2>
                     </a>
                 </div><!-- /.col-lg-4 -->
                 <div class="marketing-item">
@@ -60,12 +66,7 @@
                         <h2>Fale Conosco</h2>
                     </a>
                 </div><!-- /.col-lg-4 -->
-                <div class="marketing-item">
-                    <a href="#">
-                        <img src="imgs/post-17.png" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Atendimento 24hrs</h2>
-                    </a>
-                </div><!-- /.col-lg-4 -->
+              
                 <div class="marketing-item">
                     <a href="ouvidoria.php">
                         <img src="imgs/download.png" alt="Generic placeholder image" width="140" height="140">
@@ -145,22 +146,22 @@
                                     <div class="carousel-caption">
                                         <ul>
                                              <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                 <a target="_blank" href="https://www.uniodonto.coop.br/singulares/uniodonto-aracaju/">
                                                     <img src="imgs/singulares/logo_aracajú.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontoarapiraca.com.br/site/">
                                                     <img src="imgs/singulares/logo_arapiraca.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontocaruaru.com.br/novo_site/index.php">
                                                     <img src="imgs/singulares/logo_caruaru.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://uniodontofeiradesantana.com.br/">
                                                     <img src="imgs/singulares/logo_feiradesantana.png" alt="">
                                                 </a>
                                             </li>
@@ -175,22 +176,22 @@
                                     <div class="carousel-caption">
                                         <ul>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodonto-ce.com.br/pages/paginaInicial.jsp">
                                                     <img src="imgs/singulares/logo_fortaleza.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontogaranhuns.coop.br/">
                                                     <img src="imgs/singulares/logo_garanhuns.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontoilheus.com.br/">
                                                     <img src="imgs/singulares/logo_Ilheus.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontoitabuna.com.br/">
                                                     <img src="imgs/singulares/logo_Itabuna.png" alt="">
                                                 </a>
                                             </li>
@@ -203,22 +204,22 @@
                                     <div class="carousel-caption">
                                         <ul>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="https://www.uniodontojp.com.br/pt/">
                                                     <img src="imgs/singulares/logo_joaopessoa.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="https://www.uniodontomaceio.com.br">
                                                     <img src="imgs/singulares/logo_maceio.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontomossoro.com.br/">
                                                     <img src="imgs/singulares/logo_mossoro.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontopauloafonso.com.br/novo_site/index.php">
                                                     <img src="imgs/singulares/logo_pauloafonso.png" alt="">
                                                 </a>
                                             </li>
@@ -231,22 +232,22 @@
                                     <div class="carousel-caption">
                                         <ul>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="https://www.uniodonto.coop.br/singulares/uniodonto-piaui/">
                                                     <img src="imgs/singulares/logo_piaui.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontorecife.com.br/novo_site/">
                                                     <img src="imgs/singulares/logo_recife.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontorn.com.br/">
                                                     <img src="imgs/singulares/logo_riograndedonorte.png" alt="">
                                                 </a>
                                             </li>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontosalvador.com.br/">
                                                     <img src="imgs/singulares/logo_salvador.png" alt="">
                                                 </a>
                                             </li>
@@ -259,7 +260,7 @@
                                     <div class="carousel-caption">
                                         <ul>
                                             <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                                                <a href="">
+                                                <a target="_blank" href="http://www.uniodontoserido.com.br/site/">
                                                     <img src="imgs/singulares/logo_serido.png" alt="">
                                                 </a>
                                             </li>

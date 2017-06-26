@@ -440,8 +440,8 @@ button{
 
 .marketing.singulares .carousel .carousel-caption ul li{
     padding: 1%;
-    border: 1px solid black;
-    border-radius: 10px;
+    /*border: 1px solid black;*/
+    /*border-radius: 10px;*/
     width: 23%;
     margin: 1%;
     float: left;
@@ -554,7 +554,7 @@ button{
 
 .singulares-content .singular{
     text-align: center;
-    border: 1px solid #383838;
+    border: 1px solid #dadada;
     padding: 25px 0;
     border-radius: 13px;
     margin: 1%;
