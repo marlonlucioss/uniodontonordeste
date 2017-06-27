@@ -1,5 +1,4 @@
 <?php include_once('head.php'); ?>
-
         <div class="container-fluid ouvidoria-content">
             <div class="site-main-title">
                 <h2>OUVIDORIA<small class="site-main-subtitle">
@@ -18,31 +17,31 @@ Bem-vindo à Ouvidoria da Uniodonto do Nordeste. Sua opinião é muito important
         </center>
             <div class="row ">&nbsp;</div>
                     <div class="col-lg-6" style="margin: 0 auto;float: none;">
-                        <form method="post" action="../phpmailer/email.php" name="frmContato">
+                        <form method="post" action="../phpmailer/email.php" name="frmContato" id="form-ouvidoria">
                             <input type="hidden" name="tipoContato" value="Ouvidoria" class="form-control">
                             <div class="form-group col-lg-12">
                                 <label for="">Nome</label>
-                                <input name="edtNome" type="text" id="edtNome" size="50" maxlength="150" class="form-control">
+                                <input required name="edtNome" type="text" id="edtNome" size="50" maxlength="150" class="form-control">
                             </div>
                             <div class="form-group col-lg-12">
                                 <label for="">Protocolo</label>
-                                <input name="edtProtocolo" type="text" id="edtProtocolo" size="50" maxlength="150" class="form-control">
+                                <input required name="edtProtocolo" type="text" id="edtProtocolo" size="50" maxlength="150" class="form-control">
                             </div>
                             <div class="form-group col-lg-12">
                                 <label for="">Assunto</label>
-                                <input name="edtAssunto" type="text" id="edtAssunto" size="50" maxlength="150" class="form-control">
+                                <input required name="edtAssunto" type="text" id="edtAssunto" size="50" maxlength="150" class="form-control">
                             </div>
                             <div class="form-group col-lg-12">
                                 <label for="">Email</label>
-                                <input name="edtEmail" type="text" id="edtEmail" size="50" maxlength="150" class="form-control">
+                                <input required name="edtEmail" type="text" id="edtEmail" size="50" maxlength="150" class="form-control">
                             </div>
                             <div class="form-group col-lg-12">
                                 <label for="">Mensagem</label>
-                                <textarea name="edtMensagem" id="edtMensagem" cols="30" rows="5" class="form-control"></textarea>
+                                <textarea required name="edtMensagem" id="edtMensagem" cols="30" rows="5" class="form-control"></textarea>
                             </div>
                             <hr class="divider">
                             <div class="form-group col-lg-12">
-                                <input class="btn-primary btn submit" type="button" src="imagens/botao_enviar.png" name="Submit" onClick="enviar()" value="Enviar">
+                                <input class="btn-primary btn submit" type="submit" src="imagens/botao_enviar.png" name="Submit" value="Enviar">
                             </div>
                         <!--
                         <input type="hidden" name="tipoContato" value="Ouvidoria">
@@ -104,5 +103,5 @@ Bem-vindo à Ouvidoria da Uniodonto do Nordeste. Sua opinião é muito important
                     </div>
                 </div>
             </div>
-       </div>
+       </div></div>
 <?php include_once('footer.php'); ?>

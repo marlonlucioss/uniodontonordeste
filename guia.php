@@ -1,4 +1,23 @@
 <?php include_once('head.php'); ?>
+<script>
+    function opcao(pOpcao) {
+
+        switch (pOpcao){
+            case 'content_nacional':
+                if ( $("#content_nacional").css('display') == 'none' ){
+                    $("#content_local").hide();
+                    $("#content_nacional").fadeIn();
+                }
+                break;
+            case 'content_local':
+                if ( $("#content_local").css('display') == 'none' ){
+                    $("#content_nacional").hide();
+                    $("#content_local").fadeIn();
+                }
+                break;
+        }
+    }
+</script>
 <div class="container-fluid guia-content">
     <div class="row">
      <script>
@@ -54,12 +73,42 @@
                      </div>
                  </div>
              </div>
-            <section class="iframe-content">
-                <iframe height="850px" src="https://www2.uniodontomaceio.com.br/uniodontonordeste/site/guia_odonto.php" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
-            </section>
-             <section class="iframe-content">
-                <iframe height="850px" src="http://www2.uniodonto.com.br/Institucional/BuscaDentista.aspx?singular=038" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
-            </section>
+        </div>
+        <div class="container-fluid marketing main-menu" style="margin-top: 50px;">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <a href="javascript:opcao('content_local')" style="color: transparent">
+                    <div class="marketing-item">
+                        <img src="imgs/icons/adesao.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Local</h2>
+                    </div><!-- /.col-lg-4 -->
+                </a>
+                <a href="javascript:opcao('content_nacional')" style="color: transparent">
+                    <div class="marketing-item">
+                        <img src="imgs/icons/cobertura.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Nacional</h2>
+                    </div><!-- /.col-lg-4 -->
+                </a>
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+        <div class="container-wrap">
+            <div class="container main-content">
+                <div class="row">
+                    <!-- Banner -->
+                    <div class="tableEmpresariais" id="content_local" style="display:none">
+                        <section class="iframe-content">
+                            <iframe height="850px" src="http://www2.uniodonto.com.br/Institucional/BuscaDentista.aspx?singular=038" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
+                        </section>
+                    </div>
+                    <div class="tableEmpresariais" id="content_nacional" style="display:none">
+                        <section class="iframe-content">
+                            <iframe height="850px" src="https://www2.uniodontomaceio.com.br/uniodontonordeste/site/guia_odonto.php" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </div>

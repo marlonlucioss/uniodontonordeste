@@ -23,6 +23,8 @@
 
         <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
         
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+        
 
         <link rel="stylesheet" href="css/main.css">
     </head>

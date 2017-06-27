@@ -1,16 +1,16 @@
-<?php 
+<?php
 ini_set('display_errors', 0);
 ini_set('display_startup_erros', 0);
 error_reporting(0);
 
 //
 include_once('head.php');
-// 
+//
 //
 //if(isset($_POST['form-nome']) && isset($_POST['form-email'])) {
-//    
+//
 //    require_once('email/email.php');
-//    
+//
 //    $nome = $_POST['form-nome'];
 //    $email = $_POST['form-email'];
 //    $cidade = $_POST['form-cidade'];
@@ -19,7 +19,7 @@ include_once('head.php');
 //    $cel = $_POST['form-cel'];
 //    $tipo = $_POST['form-tipo-contato'];
 //    $msg = $_POST['form-msg'];
-//    
+//
 //    $corpo = "<table>
 //    <tr>
 //        <td>Nome: </td>
@@ -44,7 +44,7 @@ include_once('head.php');
 //     <tr>
 //        <td>Celular: </td>
 //        <td>$cel</td>
-//    </tr> 
+//    </tr>
 //    <tr>
 //        <td>Tipo de Contato que gostaria de ser Contactado: </td>
 //        <td>$tipo</td>
@@ -54,14 +54,14 @@ include_once('head.php');
 //        <td>$msg</td>
 //    </tr>
 //</table>";
-//    
+//
 //    if(enviarEmail($corpo, 'juceliofeitoza@gmail.com', 'Fale Conosco - Site Uniodonto Nordeste')) {
 //        $contatoConfirm = 'block';
 //    } else {
 //        $contatoConfirm = 'none';
 //    }
 //}
- 
+
 ?>
 
 
@@ -129,47 +129,47 @@ include_once('head.php');
                                 <h3 style="color:gren;">Muito Obrigado!, Contato enviado com sucesso.</h3>
                                 </div>
                             <hr class="divider">
-                            <form action="" method="post">
+                            <form action="" method="post" id="form-contato">
                                 <div class="form-group col-lg-12">
                                     <label for="">Seu nome</label>
-                                    <input type="text" id="form-nome" name="form-nome" class="form-control">
+                                    <input required type="text" id="form-nome" name="form-nome" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Email</label>
-                                    <input type="text" id="form-email" name="form-email" class="form-control">
+                                    <input required type="text" id="form-email" name="form-email" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Cidade</label>
-                                    <input type="text" id="form-cidade" name="form-cidade" class="form-control">
+                                    <input required type="text" id="form-cidade" name="form-cidade" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Assunto</label>
-                                    <input type="text" id="form-assunto" name="form-assunto" class="form-control">
+                                    <input required type="text" id="form-assunto" name="form-assunto" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label for="">Telefone fixo</label>
-                                    <input type="text" id="form-tel" name="form-tel" class="form-control">
+                                    <input required type="text" id="form-tel" name="form-tel" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-6">
                                     <label for="">Telefone celular</label>
-                                    <input type="text" id="form-cel" name="form-cel" class="form-control">
+                                    <input required type="text" id="form-cel" name="form-cel" class="form-control">
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Como gostaria de ser atendido?</label>
                                     <div class="form-input">
-                                        <input type="radio" name="form-tipo-contato" id="form-tipo-contato" value="telefone" class="form-control radio-field">Email
+                                        <input required type="radio" name="form-tipo-contato" id="form-tipo-contato-telefone" value="telefone" class="form-control radio-field">Telefone
                                     </div>
                                     <div class="form-input">
-                                        <input type="radio"  name="form-tipo-contato" id="form-tipo-contato" value="telefone" class="form-control radio-field">Telefone
+                                        <input required type="radio"  name="form-tipo-contato" id="form-tipo-contato-email" value="email" class="form-control radio-field">Email
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Mensagem</label>
-                                    <textarea type="text" id="form-msg" name="form-msg" class="form-control"></textarea>
+                                    <textarea required type="text" id="form-msg" name="form-msg" class="form-control"></textarea>
                                 </div>
                                 <hr class="divider">
                                 <div class="form-group col-lg-12">
-                                    <button type="submit" class="btn-primary btn submit enviar-form-contact " disabled="disabled">Enviar formulário</button>
+                                    <button type="submit" class="btn-primary btn submit enviar-form-contact ">Enviar formulário</button>
                                 </div>
                             </form>
                         </div>
@@ -178,14 +178,4 @@ include_once('head.php');
                     </div>
             </div>
         </div>
-
-
-<script>
-    $('enviar-form-contact').click( function () {
-
-        $('enviar-form-contact').hide();
-
-    });
-
-</script> 
 <?php include_once('footer.php'); ?>

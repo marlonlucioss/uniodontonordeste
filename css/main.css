@@ -614,7 +614,37 @@ button{
 }
 
 
+.mobile-topo{
+    background: url("../imgs/mobile-topo.jpg") center center no-repeat;
+    height: 230px;
+    background-size: 100%;
+    margin-bottom: 50px;
+}
 
+.mobile-content *{
+    text-align: center;
+}
+
+.mobile-content img{
+    margin-top: 30px;
+    width: 110px;
+}
+
+.mobile-content h5{
+    font-size: 11px;
+}
+
+.mobile-content h4{
+    font-size: 14px;
+}
+
+.mobile-content-top{
+    margin-bottom: 50px;
+}
+
+.mobile-content-bottom-left, .mobile-content-bottom-right{
+    margin-bottom: 50px;
+}
 
 
 

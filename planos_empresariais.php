@@ -47,7 +47,7 @@
                     break;
             }
 		}
-        </script>
+</script>
 <div class="container-fluid planos-empresariais-content">
     <div class="row">
     <div class="site-main-title">
