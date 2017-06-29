@@ -16,14 +16,14 @@
                                 <h4>Possui um Iphone ou Ipad? Baixe na Apple Store!</h4>
                                 <h5>Clique no ícone abaixo (da loja de aplicativos) e instale o Uniodonto Mobile.</h5>
                                 <div class="">
-                                    <a href="#"><img src="imgs/icon-mobile.png" alt=""></a>
+                                    <a target="_blank" href="https://itunes.apple.com/br/app/uniodonto/id892896553?mt=8#"><img src="imgs/icon-mobile.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="mobile-content-bottom-right col-lg-6 col-sm-12">
                                 <h4>Possui um Smartphone com Android? Baixe na Play Store!</h4>
                                 <h5>Clique no ícone abaixo (da loja de aplicativos) e instale o Uniodonto Mobile.</h5>
                                 <div class="">
-                                    <a href="#"><img src="imgs/icon-mobile.png" alt=""></a>
+                                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.intuitiveappz.uniodonto"><img src="imgs/icon-mobile.png" alt=""></a>
                                 </div>
                             </div>
                         </div>

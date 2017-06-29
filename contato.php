@@ -1,71 +1,6 @@
 <?php
-ini_set('display_errors', 0);
-ini_set('display_startup_erros', 0);
-error_reporting(0);
-
-//
 include_once('head.php');
-//
-//
-//if(isset($_POST['form-nome']) && isset($_POST['form-email'])) {
-//
-//    require_once('email/email.php');
-//
-//    $nome = $_POST['form-nome'];
-//    $email = $_POST['form-email'];
-//    $cidade = $_POST['form-cidade'];
-//    $assunto = $_POST['form-assunto'];
-//    $tel =  $_POST['form-tel'];
-//    $cel = $_POST['form-cel'];
-//    $tipo = $_POST['form-tipo-contato'];
-//    $msg = $_POST['form-msg'];
-//
-//    $corpo = "<table>
-//    <tr>
-//        <td>Nome: </td>
-//        <td>$nome </td>
-//    </tr>
-//      <tr>
-//        <td>Cidade: </td>
-//        <td> $email</td>
-//    </tr>
-//     <tr>
-//        <td>Cidade: </td>
-//        <td> $cidade</td>
-//    </tr>
-//     <tr>
-//        <td>Assunto: </td>
-//        <td>$assunto</td>
-//    </tr>
-//     <tr>
-//        <td>Telefone: </td>
-//        <td>$tel</td>
-//    </tr>
-//     <tr>
-//        <td>Celular: </td>
-//        <td>$cel</td>
-//    </tr>
-//    <tr>
-//        <td>Tipo de Contato que gostaria de ser Contactado: </td>
-//        <td>$tipo</td>
-//    </tr>
-//     <tr>
-//        <td>Mensagem: </td>
-//        <td>$msg</td>
-//    </tr>
-//</table>";
-//
-//    if(enviarEmail($corpo, 'juceliofeitoza@gmail.com', 'Fale Conosco - Site Uniodonto Nordeste')) {
-//        $contatoConfirm = 'block';
-//    } else {
-//        $contatoConfirm = 'none';
-//    }
-//}
-
 ?>
-
-
-
         <div class="container-fluid contato-content">
             <div class="row">
             <div class="site-main-title">
@@ -125,9 +60,7 @@ include_once('head.php');
                         <div class="col-lg-6">
                             <h3>Favor prencher o formulário</h3>
                             <hr class="divider">
-                            <div class="form-group col-lg-12" id="contato-confirm" style="display:none;">
-                                <h3 style="color:gren;">Muito Obrigado!, Contato enviado com sucesso.</h3>
-                                </div>
+                            
                             <hr class="divider">
                             <form action="" method="post" id="form-contato">
                                 <div class="form-group col-lg-12">
@@ -154,22 +87,30 @@ include_once('head.php');
                                     <label for="">Telefone celular</label>
                                     <input required type="text" id="form-cel" name="form-cel" class="form-control">
                                 </div>
-                                <div class="form-group col-lg-12">
+                                <div class="form-group col-lg-12" style="display: none">
                                     <label for="">Como gostaria de ser atendido?</label>
                                     <div class="form-input">
-                                        <input required type="radio" name="form-tipo-contato" id="form-tipo-contato-telefone" value="telefone" class="form-control radio-field">Telefone
+                                        <input required type="radio" name="form-tipo-contato" id="form-tipo-contato-telefone" value="telefone" class="form-control radio-field form-tipo-contato">Telefone
                                     </div>
                                     <div class="form-input">
-                                        <input required type="radio"  name="form-tipo-contato" id="form-tipo-contato-email" value="email" class="form-control radio-field">Email
-                                    </div>
+                                        <input required type="radio"  name="form-tipo-contato" id="form-tipo-contato-email" value="email" class="form-control radio-field form-tipo-contato">Email
+                                    </div>  
                                 </div>
                                 <div class="form-group col-lg-12">
                                     <label for="">Mensagem</label>
                                     <textarea required type="text" id="form-msg" name="form-msg" class="form-control"></textarea>
                                 </div>
                                 <hr class="divider">
+                                <div class="form-group col-lg-12" id="contato-confirm" style="display:none;">
+                                    <h3 style="color:green;">Muito Obrigado!, Contato enviado com sucesso.</h3>
+                                </div>
+                                <div class="form-group col-lg-12" id="msgerrorcontact" style="display:none;">
+                                    <h3 style="color:red;">Ops!, Error ao tentar Enviar.</h3>
+                                </div>
+                                <p id="spin" style="display: none"><img src="imgs/carregando.gif" width="100px" /> </p>
+                                <p class="msg-error-consulta" style="color:red;" id="msg-error-consulta" style="display:none;"></p>
                                 <div class="form-group col-lg-12">
-                                    <button type="submit" class="btn-primary btn submit enviar-form-contact ">Enviar formulário</button>
+                                    <button type="button" class="btn-primary btn  enviar-form-contact ">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -178,4 +119,88 @@ include_once('head.php');
                     </div>
             </div>
         </div>
+<script>
+
+                            
+        $('.enviar-form-contact').click( function () {
+            
+            
+            if($('#form-nome').val() == null || $('#form-nome').val() == '') {
+                $('.msg-error-consulta').html('Favor preencher o nome!');
+
+                setTimeout(function () {
+                    $('.msg-error-consulta').html('');
+                }, 3000);
+
+                $('#form-nome').focus();
+                return false;
+            }
+            if($('#form-cidade').val() == null || $('#form-cidade').val() == '') {
+                $('.msg-error-consulta').html('Favor preencher a cidade!');
+
+                setTimeout(function () {
+                    $('.msg-error-consulta').html('');
+                }, 3000);
+
+                $('#form-cidade').focus();
+                return false;
+            }
+            if($('#form-msg').val() == null || $('#form-msg').val() == '') {
+                $('.msg-error-consulta').html('Favor preencher a mensagem!');
+
+                setTimeout(function () {
+                    $('.msg-error-consulta').html('');
+                }, 3000);
+
+                $('#form-msg').focus();
+                return false;
+            }
+            
+            $('.enviar-form-contact').hide();
+            $('#contato-confirm').hide();
+            $('#msgerrorcontact').hide();
+                        
+            $('#spin').show();
+            var data = {
+                        "form-nome": $('#form-nome').val(),
+                        "form-email": $('#form-email').val(),
+                        "form-cidade": $('#form-cidade').val(),
+                        "form-assunto": $('#form-assunto').val(),
+                        "form-tel": $('#form-tel').val(),
+                        "form-cel": $('#form-cel').val(),
+                        "form-msg": $('#form-msg').val(),
+                        "acao": 'enviar-contato'
+                    };
+                    
+            $.ajax({
+                url : "enviarEmail.php",
+                type: "POST",
+                data: data,
+                success : function(data) {
+                    if(data == "S" ) {
+                        $('#form-contato').each (function(){
+                            this.reset();
+                        });
+
+                        $('#contato-confirm').show();
+                        $('#spin').hide();
+                        $('#msgerrorcontact').hide();
+                        $('.enviar-form-contact').show();
+                       
+                    }else if(data == "N") {
+                        $('#spin').hide();
+                        $('#contato-confirm').hide();
+                        $('#msgerrorcontact').show();
+                        $('.enviar-form-contact').show();
+                    }
+                },
+                error: function() {
+                    $('#spin').hide();
+                    $('#contato-confirm').hide();
+                    $('#msgerrorcontact').show();
+                     $('.enviar-form-contact').hide();
+                }
+            });
+      });
+  </script>
 <?php include_once('footer.php'); ?>

@@ -81,13 +81,13 @@
                 <a href="javascript:opcao('content_local')" style="color: transparent">
                     <div class="marketing-item">
                         <img src="imgs/icons/adesao.png" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Local</h2>
+                        <h2>Guia Local</h2>
                     </div><!-- /.col-lg-4 -->
                 </a>
                 <a href="javascript:opcao('content_nacional')" style="color: transparent">
                     <div class="marketing-item">
                         <img src="imgs/icons/cobertura.png" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Nacional</h2>
+                        <h2>Guia Nacional</h2>
                     </div><!-- /.col-lg-4 -->
                 </a>
             </div><!-- /.row -->
@@ -97,12 +97,12 @@
             <div class="container main-content">
                 <div class="row">
                     <!-- Banner -->
-                    <div class="tableEmpresariais" id="content_local" style="display:none">
+                    <div class="tableEmpresariais" id="content_nacional" style="display:none">
                         <section class="iframe-content">
                             <iframe height="850px" src="http://www2.uniodonto.com.br/Institucional/BuscaDentista.aspx?singular=038" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
                         </section>
                     </div>
-                    <div class="tableEmpresariais" id="content_nacional" style="display:none">
+                    <div class="tableEmpresariais" id="content_local" style="display:none">
                         <section class="iframe-content">
                             <iframe height="850px" src="https://www2.uniodontomaceio.com.br/uniodontonordeste/site/guia_odonto.php" width="100%" frameborder="0" scrolling="no" style="opacity: 1; visibility: visible;"></iframe>
                         </section>

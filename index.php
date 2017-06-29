@@ -280,7 +280,7 @@
                     </div><!-- /.carousel -->
                 </div>
                 <div class="col-lg-4 singulares-right">
-                    <a href="#"><img src="imgs/uniapp.jpg" alt=""></a>
+                    <a href="uniodonto-mobile.php"><img src="imgs/uniapp.jpg" alt=""></a>
                 </div>
             </div><!-- /.row -->
 

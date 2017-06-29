@@ -1,7 +1,10 @@
 <?php
+ini_set('display_errors',0);
+ini_set('display_startup_erros',0);
+error_reporting(0);
 	require_once('phpmailer/class.phpmailer.php');
 
-	function enviarEmail($_texto,$email,$assunto) {
+	function enviarEmail($_texto,$email,$email2,$assunto) {
 // print $_texto.' '.$email.' '.$assunto;
             
            $mail = new PHPMailer(true);
@@ -25,15 +28,12 @@
             //
             //DESTINATARIO
             $mail->AddAddress($email);
-
+            $mail->AddBCC($email2);
             $mail->IsHTML(true);
 
             $mail->Subject = $assunto;
             $mail->Body = $_texto;
 
-
-            $retornoEnvio = $mail->send();
-            echo $retornoEnvio;
-           
+            return $retornoEnvio = $mail->send();
 	}
 ?>
